@@ -1,7 +1,6 @@
 import React, { FC, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import AppVersion from '../AppVersion/AppVersion'
-import DashboardOptions from '../DashboardOptions/DashboardOptions'
 import PillIcon from '../PillIcon/PillIcon'
 import Typography from '../Typography/Typography'
 
@@ -46,7 +45,6 @@ const AppGreeting: FC<AppGreetingProps> = ({ sirenVersion, userName, ...props })
             <AppVersion {...props} />
           </div>
         </div>
-        <DashboardOptions />
       </div>
     </div>
   )

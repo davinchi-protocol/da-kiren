@@ -29,7 +29,7 @@ const AppDescription: FC<AppDescriptionProps> = ({ view }) => {
           className={largerText}
           color={lightTextColor}
         >
-          Ethereum Lighthouse
+          Davinci
         </Typography>
         <Typography
           fontWeight='font-light'
@@ -57,7 +57,7 @@ const AppDescription: FC<AppDescriptionProps> = ({ view }) => {
           className={largerText}
           color={darkerTextColor}
         >
-          Sigma Prime
+          Davinci Dev
         </Typography>
       </div>
       <div className={opacityText}>
@@ -68,15 +68,6 @@ const AppDescription: FC<AppDescriptionProps> = ({ view }) => {
           color={darkerTextColor}
         >
           {t('appDescription.builtOn')}
-        </Typography>
-        <Typography
-          fontWeight='font-light'
-          type='text-caption2'
-          isBold={isSettingsView}
-          className={largerText}
-          color={darkerTextColor}
-        >
-          {t('appDescription.rustLanguage')}
         </Typography>
       </div>
     </div>

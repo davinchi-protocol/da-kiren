@@ -60,7 +60,7 @@ const ValidatorInfoHeader: FC<ValidatorInfoHeaderProps> = ({ validator, isAnimat
                   <br />
                 </Trans>
               </Typography>
-              <Typography>{balance.toFixed(2)} ETH</Typography>
+              <Typography>{balance.toFixed(2)} DCOIN</Typography>
             </div>
           </div>
         </div>

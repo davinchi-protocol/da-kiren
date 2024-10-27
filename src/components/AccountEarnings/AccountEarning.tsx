@@ -97,7 +97,7 @@ const AccountEarning: FC<AccountEarningProps> = ({ validatorStateInfo, validator
           </Typography>
           <div className='w-full flex justify-end pr-6 pt-4'>
             <Typography color='text-white' isBold darkMode='dark:text-white' type='text-h2'>
-              {formatLocalCurrency(totalEarnings, { max: 3 })} ETH
+              {formatLocalCurrency(totalEarnings, { max: 3 })} DCOIN
             </Typography>
           </div>
           <div className='w-full mt-6 flex items-center'>
@@ -115,7 +115,7 @@ const AccountEarning: FC<AccountEarningProps> = ({ validatorStateInfo, validator
                     type='text-caption1'
                     className='xl:text-body'
                   >
-                    {`${formattedPrefix}${formatLocalCurrency(formattedRate)} ${currency}/ETH`}
+                    {`${formattedPrefix}${formatLocalCurrency(formattedRate)} ${currency}/DCOIN`}
                   </Typography>
                 </div>
                 <div>
@@ -168,7 +168,7 @@ const AccountEarning: FC<AccountEarningProps> = ({ validatorStateInfo, validator
               >
                 <div className='flex space-x-2'>
                   <Typography type='text-caption1' className='uppercase' color='text-dark400'>
-                    ETH
+                  DCOIN
                   </Typography>
                   <i
                     id='tooltip'
@@ -182,7 +182,7 @@ const AccountEarning: FC<AccountEarningProps> = ({ validatorStateInfo, validator
                   darkMode='dark:text-white'
                   family='font-roboto'
                 >
-                  {formatLocalCurrency(estimate, { max: 4 })} ETH
+                  {formatLocalCurrency(estimate, { max: 4 })} DCOIN
                 </Typography>
               </Tooltip>
             </div>

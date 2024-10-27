@@ -3,15 +3,12 @@
 import React, { FC, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import LighthouseSvg from '../../../src/assets/images/lighthouse-black.svg';
-import AppDescription from '../../../src/components/AppDescription/AppDescription';
 import AppVersion from '../../../src/components/AppVersion/AppVersion';
 import DashboardWrapper from '../../../src/components/DashboardWrapper/DashboardWrapper';
 import Input from '../../../src/components/Input/Input';
-import SocialIcon from '../../../src/components/SocialIcon/SocialIcon';
 import Toggle from '../../../src/components/Toggle/Toggle';
 import Typography from '../../../src/components/Typography/Typography';
 import UiModeIcon from '../../../src/components/UiModeIcon/UiModeIcon';
-import { DiscordUrl, LighthouseBookUrl, SigPGithubUrl, SigPIoUrl, SigPTwitter } from '../../../src/constants/constants';
 import { UiMode } from '../../../src/constants/enums';
 import useLocalStorage from '../../../src/hooks/useLocalStorage';
 import useNetworkMonitor from '../../../src/hooks/useNetworkMonitor';
@@ -113,46 +110,6 @@ const Main: FC<MainProps> = (props) => {
                 </div>
               </div>
               <AppVersion bnVersion={bnVersion} vcVersion={lighthouseVersion} className='mt-4' />
-            </div>
-            <div className='flex-1 mt-8 lg:mt-0 lg:px-12'>
-              <AppDescription view='settings' />
-              <div className='w-full flex pt-12 justify-between'>
-                <SocialIcon
-                  href={SigPGithubUrl}
-                  darkMode='dark:text-primary'
-                  title='GitHub'
-                  icon='bi-github'
-                  color='text-primary'
-                />
-                <SocialIcon
-                  href={DiscordUrl}
-                  darkMode='dark:text-primary'
-                  title='Discord'
-                  icon='bi-discord'
-                  color='text-primary'
-                />
-                <SocialIcon
-                  href={SigPTwitter}
-                  darkMode='dark:text-primary'
-                  title='Twitter'
-                  icon='bi-twitter'
-                  color='text-primary'
-                />
-                <SocialIcon
-                  href={SigPIoUrl}
-                  darkMode='dark:text-primary'
-                  title={t('settings.links.website')}
-                  icon='bi-globe2'
-                  color='text-primary'
-                />
-                <SocialIcon
-                  href={LighthouseBookUrl}
-                  darkMode='dark:text-primary'
-                  title={t('settings.links.documentation')}
-                  icon='bi-life-preserver'
-                  color='text-primary'
-                />
-              </div>
             </div>
           </div>
           <div className='w-full mt-6 lg:mt-0 px-0'>

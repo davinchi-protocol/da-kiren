@@ -74,7 +74,7 @@ const ValidatorSummary: FC<ValidatorSummaryProps> = ({
             {t('validatorManagement.summary.locked')}
           </Typography>
           <Typography isBold type='text-caption1'>
-            {totalBalance?.toFixed(3) || '0'} ETH
+            {totalBalance?.toFixed(3) || '0'} DCOIN
           </Typography>
         </div>
       </div>

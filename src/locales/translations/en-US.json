@@ -215,8 +215,8 @@
   "initScreen": {
     "initializing": "Initializing",
     "fetchingEndpoints": "Fetching saved api endpoints",
-    "connectingBeacon": "Attempting to connect to Beacon Node",
-    "connectingValidator": "Attempting to connect to Validator Client",
+    "connectingBeacon": "Attempting to connect to Davinci Node",
+    "connectingValidator": "Attempting to connect to Davinci Validator Client",
     "fetchBeaconSync": "Fetching beacon sync status"
   },
   "configScreen": {
@@ -344,8 +344,8 @@
     "peerCountMedium": "{{type}}: Peer count reaching low levels"
   },
   "tooltip": {
-    "ethEstimate": "Estimated {{time}} ETH earnings of all validators under current network and device conditions.",
-    "ethTotal": "Total ETH earnings of all validators",
+    "ethEstimate": "Estimated {{time}} DCOIN earnings of all validators under current network and device conditions.",
+    "ethTotal": "Total DCOIN earnings of all validators",
     "fiatEstimate": "Estimated {{time}} earnings converted to selected fiat currency exchange rate.",
     "fiatTotal": "Total earnings converted to selected fiat currency exchange rate.",
     "annualApr": "Combined total Annual Percentage Rate estimate."
@@ -387,7 +387,7 @@
     }
   },
   "basicValidatorMetrics": {
-    "ethRate": "ETH Rate",
+    "ethRate": "DCOIN Rate",
     "validator": "Validator",
     "balance": "Balance"
   },

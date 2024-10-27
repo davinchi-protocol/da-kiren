@@ -1,7 +1,5 @@
 import { FC } from 'react'
 import Siren from '../../assets/images/siren.svg'
-import { DiscordUrl, LighthouseBookUrl } from '../../constants/constants'
-import Button, { ButtonFace } from '../Button/Button'
 import HealthMetric, { HealthMetricProps } from './HealthMetric'
 
 export interface FootBarProps extends HealthMetricProps {}
@@ -14,18 +12,6 @@ const FootBar: FC<FootBarProps> = (props) => {
       </div>
       <div className='flex items-center space-x-4 w-max'>
         <HealthMetric {...props} />
-        <div className='flex space-x-1'>
-          <a href={DiscordUrl} target='_blank' rel='noreferrer'>
-            <Button type={ButtonFace.ICON}>
-              <i className='bi bi-discord' />
-            </Button>
-          </a>
-          <a href={LighthouseBookUrl} target='_blank' rel='noreferrer'>
-            <Button type={ButtonFace.ICON}>
-              <i className='bi bi-question-circle-fill' />
-            </Button>
-          </a>
-        </div>
       </div>
     </div>
   )

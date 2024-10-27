@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
-import { DiscordUrl } from '../../constants/constants'
 import RodalModal from '../RodalModal/RodalModal'
 import Typography from '../Typography/Typography'
 
@@ -40,12 +39,6 @@ const NetworkErrorModal: FC<NetworkErrorModalProps> = ({
               <span className='font-bold' />
               {{ network: effectedNetworkText() }}
             </Trans>{' '}
-            <Trans i18nKey='networkErrorModal.reconfigureOrContact'>
-              <a className='font-bold underline' target='_blank' rel='noreferrer' href={DiscordUrl}>
-                discord
-              </a>
-              .
-            </Trans>
           </Typography>
         </div>
       </div>

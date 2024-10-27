@@ -66,7 +66,7 @@ const ValidatorIncomeSummary: FC<ValidatorIncomeSummaryProps> = ({ className, va
             />
           ) : null}
           <Typography isBold type='text-caption1'>
-            {estimate?.toFixed(4) || '-'} ETH
+            {estimate?.toFixed(4) || '-'} DCOIN
           </Typography>
         </div>
       </div>

@@ -149,7 +149,7 @@ const ValidatorBalances: FC<ValidatorBalancesProps> = ({
           isBold
           className='-rotate-90'
         >
-          ETH
+          DCOIN
         </Typography>
       </div>
       <div className='relative flex-1 flex flex-col pb-2 items-center justify-center'>
